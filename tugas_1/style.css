@@ -1,0 +1,41 @@
+/* 1. Style the page background and center the content */
+body {
+    background-color: hsl(212, 45%, 89%); /* Light gray background for the whole page */
+    display: flex; /* Turn on flexbox */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Make sure body takes up the full screen height */
+    margin: 0; /* Remove default browser margin */
+    font-family: 'Outfit', sans-serif; /* Set font */
+}
+
+/* 2. Style the actual card */
+.qr-component {
+    background-color: white; /* Background color of the card */
+    padding: 16px; /* Add space inside the card so text/img doesn't touch the edges */
+    border-radius: 20px; /* Round the corners of the card */
+    text-align: center; /* Center the text inside the card */   
+    width: 320px; /* Limit the width of the card */
+}
+
+.qr-component img {
+    width: 100%; /* Force image to fit container width */
+    border-radius: 10px; /* Smooth corners of the image */
+}
+
+.qr-component h1 {
+    font-weight: bold;
+    font-size: 22px; /* Set font size */
+    line-height: 120%; /* Set line height */
+    letter-spacing: 0px; /* Set letter spacing */
+    color: hsl(218, 44%, 22%); /* Set text color */
+}
+
+.qr-component p {
+    font-weight: normal;
+    font-size: 15px; /* Set font size */
+    line-height:  140%; /* Set line height */
+    letter-spacing: 0.2px; /* Set letter spacing */
+    color: hsl(216, 15%, 48%); /* Set text color */
+}
+
